@@ -2,19 +2,19 @@
 
 variable "credentials" {
   description = "Credentials JSON file"
-  default = ""
+  default = "~/.gc/credentials.json"
   type = string
 }
 
 variable "project" {
   description = "GCP Project ID"
-  default = ""
+  default = "dtc-de-course-0001"
   type = string
 }
 
 variable "region" {
   description = "Region for GCP resources. Ref: https://cloud.google.com/about/locations"
-  default = ""
+  default = "asia-south1"
   type = string
 }
 
@@ -22,7 +22,7 @@ variable "region" {
 
 variable "storage_location" {
   description = "Location for GCP bucket"
-  default     = "EU"
+  default     = "ASIA"
   type = string
 }
 

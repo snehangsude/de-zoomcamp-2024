@@ -1,0 +1,11 @@
+version: 2
+
+sources:
+  - name: staging
+    database: dtc-de-course-0001
+    schema: ny_taxi_parq
+
+    tables:
+      - name: green_taxi_rides
+      - name: yellow_taxi_rides
+      - name: fhv_taxi_rides

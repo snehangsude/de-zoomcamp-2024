@@ -17,7 +17,7 @@ def yellow_taxi_data1920():
         if "airport_fee" in df.columns:
             df.drop(['airport_fee'], inplace=True, axis=1)
         print(URL, df.shape)
-        yield df 
+        yield df
 
 
 
